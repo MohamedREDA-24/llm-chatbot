@@ -6,7 +6,7 @@ services:
     ports:
       - "8000:8000"
     environment:
-      GEMINI_API_KEY: AIzaSyD6b14D4VDq7daGEFo0AxcMS79QNjOXYic
+      GEMINI_API_KEY: ${GEMINI_API_KEY}
 
   frontend:
     build:
